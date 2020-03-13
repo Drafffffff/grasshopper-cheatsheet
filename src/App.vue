@@ -1,28 +1,25 @@
 <template>
   <div id="app" class="bg-gray-100">
     <maintitle></maintitle>
-    <div class="container">
-      
-    </div>
 
+    <fields />
 
-    <div class="h-screen"></div>
+    <pagefooter />
   </div>
 </template>
 
 <script>
 import maintitle from "./components/title.vue";
+import fields from "./components/fields";
+import pagefooter from "./components/pagefooter";
 export default {
   name: "App",
   components: {
-    maintitle
-  },
-  data() {
-    return {
-
-    }
-  },
+    maintitle,
+    fields,
+    pagefooter
+  }
 };
 </script>
 
-<style></style>
+
