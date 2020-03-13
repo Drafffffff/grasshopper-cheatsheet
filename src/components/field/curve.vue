@@ -33,7 +33,7 @@ export default {
           name_zh: "合并曲线",
           icon: require("../../assets/curve/JoinCurve.png"),
           discribetion_en: "Join as many curves as possible.",
-          discribetion_zh: "将曲线拆分成更小的线段。",
+          discribetion_zh: "尽可能多的连接曲线。",
           detialLink: "grasshoppercurve/joinCurves.html"
         },
         {
