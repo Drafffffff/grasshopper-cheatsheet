@@ -25,7 +25,7 @@
           <div class="text-lg font-bold text-indigo-700 mb-1">
             <div class="flex">
               <img
-                class="inline justify-center object-cover w-6 "
+                class="inline justify-center object-cover w-6 h-6 "
                 :src="item.icon"
                 :alt="item.name_en"
               />
@@ -59,3 +59,12 @@ export default {
   props:["maincontent","title"]
 }
 </script>
+
+<style>
+hr.styleone {
+  border: 0;
+  height: 0.8px;
+  background: rgb(105, 105, 105);
+  background-image: linear-gradient(to right, #ccc, rgb(105, 105, 105), #ccc);
+}
+</style>

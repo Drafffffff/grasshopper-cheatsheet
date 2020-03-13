@@ -30,13 +30,3 @@ export default {
   }
 };
 </script>
-<style>
-hr.styleone{
- 
-    border: 0;
-    height: 0.8px;
-    background: rgb(105, 105, 105);
-    background-image: linear-gradient(to right, #ccc, rgb(105, 105, 105), #ccc);
-
-}
-</style>

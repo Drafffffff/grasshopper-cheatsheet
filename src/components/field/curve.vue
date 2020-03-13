@@ -45,23 +45,66 @@ export default {
           detialLink: "grasshoppercurve/fillet.html"
         },
         {
-          name_en: "Nurbs Curve",
+          name_en: "NurbsCurve",
           name_zh: "Nurbs曲线",
           icon: require("../../assets/curve/NurbsCurve.png"),
           discribetion_en: "Construct a nurbs curve from control points.",
           discribetion_zh: "使用控制点构造一条Nurbs曲线。",
           detialLink: "grasshoppercurve/nurbsCurve.html"
+        },
+        {
+          name_en: "InterPolate",
+          name_zh: "插值曲线",
+          icon: require("../../assets/curve/InterPolate.png"),
+          discribetion_en:
+            "Create an interpolated curve through a set of points.",
+          discribetion_zh: "通过一组点创建插值曲线。",
+          detialLink: "grasshoppercurve/interpolate.html"
+        },
+        {
+          name_en: "ControlPoint",
+          name_zh: "提取控制点",
+          icon: require("../../assets/curve/ControlPoint.png"),
+          discribetion_en:
+            "Extract the nurbs control points and knots of a curve.",
+          discribetion_zh: "提取曲线的 nurbs 控制点和结（knots）",
+          detialLink: "grasshoppercurve/controlPoints.html"
+        },
+        {
+          name_en: "ControlPolygon",
+          name_zh: "提取控制多边形",
+          icon: require("../../assets/curve/ControlPolygon.png"),
+          discribetion_en: "Extract the nurbs control polygon of a curve.",
+          discribetion_zh: "提取曲线的nurbs控制多边形。",
+          detialLink: "grasshoppercurve/controlPolygon.html"
+        },
+        {
+          name_en: "DivideCurve",
+          name_zh: "分割曲线",
+          icon: require("../../assets/curve/DivideCurve.png"),
+          discribetion_en: "Divide a curve into equal length segments.",
+          discribetion_zh: "将曲线划分为相等长度的线段。",
+          detialLink: "grasshoppercurve/divideCurve.html"
+        },
+        {
+          name_en: "DivideLength",
+          name_zh: "分割曲线",
+          icon: require("../../assets/curve/DivideLength.png"),
+          discribetion_en: "Divide a curve into segments with a preset length.",
+          discribetion_zh: "将曲线按照预设长度划分为等长的线段",
+          detialLink: "grasshoppercurve/divideLength.html"
+        },
+        {
+          name_en: "DivideDistance",
+          name_zh: "分割曲线",
+          icon: require("../../assets/curve/DivideDistance.png"),
+          discribetion_en: "Divide a curve with a preset distance between points.",
+          discribetion_zh: "将曲线按照预设距离划分为等长的线段",
+          detialLink: "grasshoppercurve/divideDistance.html"
         }
       ]
     };
   }
 };
 </script>
-<style>
-hr.styleone {
-  border: 0;
-  height: 0.8px;
-  background: rgb(105, 105, 105);
-  background-image: linear-gradient(to right, #ccc, rgb(105, 105, 105), #ccc);
-}
-</style>
+

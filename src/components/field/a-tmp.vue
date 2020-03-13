@@ -23,20 +23,10 @@ export default {
           discribetion_en: "Mathematical addition",
           discribetion_zh: "数学加法",
           detialLink:
-            "http://grasshopperdocs.com/components/grasshoppermaths/addition.html"
+            "grasshoppermaths/addition.html"
         },
       ]
     };
   }
 };
 </script>
-<style>
-hr.styleone{
- 
-    border: 0;
-    height: 0.8px;
-    background: rgb(105, 105, 105);
-    background-image: linear-gradient(to right, #ccc, rgb(105, 105, 105), #ccc);
-
-}
-</style>
