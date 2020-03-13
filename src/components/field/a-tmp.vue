@@ -19,8 +19,7 @@ export default {
         {
           name_en: "Addition",
           name_zh: "加",
-          icon:
-            "https://drafff.oss-cn-beijing.aliyuncs.com/img/20200313000931.png",
+          icon:require("../../assets/math/Addition.png"),
           discribetion_en: "Mathematical addition",
           discribetion_zh: "数学加法",
           detialLink:

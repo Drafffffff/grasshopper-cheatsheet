@@ -25,7 +25,7 @@
           <div class="text-lg font-bold text-indigo-700 mb-1">
             <div class="flex">
               <img
-                class="inline  justify-center object-cover"
+                class="inline  justify-center object-cover w-6"
                 :src="item.icon"
                 :alt="item.name_en"
               />

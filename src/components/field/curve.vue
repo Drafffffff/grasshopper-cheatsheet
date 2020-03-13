@@ -15,8 +15,7 @@ export default {
         {
           name_en: "PolyLine",
           name_zh: "折线",
-          icon:
-            "https://drafff.oss-cn-beijing.aliyuncs.com/img/20200313155515.png",
+          icon: require("../../assets/curve/PolyLine.png"),
           discribetion_en: "Create a polyline connecting a number of points.",
           discribetion_zh: "生成一条连接若干点的折线。",
           detialLink:
@@ -25,8 +24,7 @@ export default {
         {
           name_en: "Explode",
           name_zh: "炸开",
-          icon:
-            "../../assets/curve/Explode.png",
+          icon: require("../../assets/curve/Explode.png"),
           discribetion_en: "Explode a curve into smaller segments.",
           discribetion_zh: "将曲线拆分成更小的线段。",
           detialLink:
@@ -35,8 +33,7 @@ export default {
         {
           name_en: "JoinCurve",
           name_zh: "合并曲线",
-          icon:
-            "../../assets/curve/JoinCurve.png",
+          icon: require("../../assets/curve/JoinCurve.png"),
           discribetion_en: "Join as many curves as possible.",
           discribetion_zh: "将曲线拆分成更小的线段。",
           detialLink:

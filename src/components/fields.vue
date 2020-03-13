@@ -1,7 +1,6 @@
 <template>
   <div>
     <curve/>
-    <utilfield/>
     <paramsfield/>
     <mathField/>
     <vectorfield/>
