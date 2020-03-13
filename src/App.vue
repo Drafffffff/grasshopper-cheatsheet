@@ -3,7 +3,6 @@
     <maintitle></maintitle>
 
     <fields />
-
     <pagefooter />
   </div>
 </template>
