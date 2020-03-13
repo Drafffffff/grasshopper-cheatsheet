@@ -6,41 +6,41 @@
 <script>
 import contentfield from "../field";
 export default {
-    components: {
-        contentfield
-      },
+  components: {
+    contentfield
+  },
   data() {
     return {
       content: [
         {
-          name_en: "Addition",
-          name_zh: "加",
+          name_en: "PolyLine",
+          name_zh: "折线",
           icon:
-            "https://drafff.oss-cn-beijing.aliyuncs.com/img/20200313000931.png",
-          discribetion_en: "Mathematical addition",
-          discribetion_zh: "数学加法",
-          input: [
-            { name: "A", id: "A", description: "加法的第一项" },
-            { name: "B", id: "B", description: "加法的第二项" }
-          ],
-          output: [{ name: "Result", id: "R", description: "运算结果" }],
+            "https://drafff.oss-cn-beijing.aliyuncs.com/img/20200313155515.png",
+          discribetion_en: "Create a polyline connecting a number of points.",
+          discribetion_zh: "生成一条连接若干点的折线。",
           detialLink:
-            "http://grasshopperdocs.com/components/grasshoppermaths/addition.html"
+            "http://grasshopperdocs.com/components/grasshoppercurve/polyLine.html"
         },
         {
-          name_en: "Addition",
-          name_zh: "加",
+          name_en: "Explode",
+          name_zh: "炸开",
           icon:
-            "https://drafff.oss-cn-beijing.aliyuncs.com/img/20200313000931.png",
-          discribetion_en: "Mathematical addition",
-          discribetion_zh: "数学加法",
-          input: [
-            { name: "A", id: "A", description: "加法的第一项" },
-            { name: "B", id: "B", description: "加法的第二项" }
-          ],
-          output: [{ name: "Result", id: "R", description: "运算结果" }],
+            "../../assets/curve/Explode.png",
+          discribetion_en: "Explode a curve into smaller segments.",
+          discribetion_zh: "将曲线拆分成更小的线段。",
           detialLink:
-            "http://grasshopperdocs.com/components/grasshoppermaths/addition.html"
+            "http://grasshopperdocs.com/components/grasshoppercurve/explode.html"
+        },
+        {
+          name_en: "JoinCurve",
+          name_zh: "合并曲线",
+          icon:
+            "../../assets/curve/JoinCurve.png",
+          discribetion_en: "Join as many curves as possible.",
+          discribetion_zh: "将曲线拆分成更小的线段。",
+          detialLink:
+            "http://grasshopperdocs.com/components/grasshoppercurve/joinCurves.html"
         }
       ]
     };

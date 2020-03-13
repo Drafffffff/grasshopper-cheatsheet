@@ -1,8 +1,9 @@
 <template>
   <div>
+    <curve/>
+    <utilfield/>
     <paramsfield/>
     <mathField/>
-    <curve/>
     <vectorfield/>
     <surfacefield/>
   </div>
@@ -17,7 +18,7 @@ import surfacefield from './field/surface'
 
 export default {
   components:{
-  mathField,curve,vectorfield,paramsfield,surfacefield
+  mathField,curve,vectorfield,paramsfield,surfacefield,
   }
 }
 </script>
