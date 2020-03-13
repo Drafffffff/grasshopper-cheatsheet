@@ -1,8 +1,6 @@
 <template>
   <div id="app" class="bg-gray-100">
     <maintitle></maintitle>
-
-
     <fields />
     <pagefooter />
   </div>
