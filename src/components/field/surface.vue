@@ -23,7 +23,7 @@ export default {
           discribetion_en: "Mathematical addition",
           discribetion_zh: "数学加法",
           detialLink:
-            "http://grasshopperdocs.com/components/grasshoppermaths/addition.html"
+            "grasshoppermaths/addition.html"
         },
       ]
     };

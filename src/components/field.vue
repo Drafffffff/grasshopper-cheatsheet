@@ -25,7 +25,7 @@
           <div class="text-lg font-bold text-indigo-700 mb-1">
             <div class="flex">
               <img
-                class="inline  justify-center object-cover w-6"
+                class="inline justify-center object-cover w-6 "
                 :src="item.icon"
                 :alt="item.name_en"
               />
@@ -42,7 +42,7 @@
               <p>{{ item.discribetion_zh }}</p>
             </div>
             <p class="text-xs text-right p-2 pr-4 text-gray-600">
-              <a :href="item.detialLink">了解更多></a>
+              <a :href="'http://grasshopperdocs.com/components/'+ item.detialLink">了解更多></a>
             </p>
           </div>
         </div>
