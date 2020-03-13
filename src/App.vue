@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style lang="stylus">
+<style >
 body{
 	margin: 0; 
 	padding: 0;
