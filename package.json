@@ -2,9 +2,11 @@
   "name": "grasshopper-cheatsheet",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://drafff.art/grasshopper-cheatsheet",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "ghdeploy":"yarn run build && echo 'drafff.art' > ./dist/CNAME && gh-pages -d dist"
   },
   "dependencies": {
     "autoprefixer": "^9.7.4",
