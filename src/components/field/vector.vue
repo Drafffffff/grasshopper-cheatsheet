@@ -1,33 +1,44 @@
 <template>
   <div>
-
-
-  <contentfield :maincontent="content" title="Vectors"/>
-    
+    <contentfield :maincontent="content" title="Vectors" />
   </div>
 </template>
 <script>
-import contentfield from '../field'
+import contentfield from "../field";
 export default {
   // name:"mathfield",
-  components:{
+  components: {
     contentfield
   },
   data() {
     return {
       content: [
-                {
-          name_en: "Addition",
-          name_zh: "加",
-          icon:require("../../assets/math/Addition.png"),
-          discribetion_en: "Mathematical addition",
-          discribetion_zh: "数学加法",
-          detialLink:
-            "grasshoppermaths/addition.html"
+        {
+          name_en: "UnitX",
+          name_zh: "单位矢量X",
+          icon: require("../../assets/vector/UnitX.png"),
+          discribetion_en: "Unit vector parallel to the world {x} axis.",
+          discribetion_zh: "与世界 [x] 轴平行的单位矢量。",
+          detialLink: "grasshoppervector/unitX.html"
         },
+        {
+          name_en: "UnitY",
+          name_zh: "单位矢量Y",
+          icon: require("../../assets/vector/UnitY.png"),
+          discribetion_en: "Unit vector parallel to the world {y} axis.",
+          discribetion_zh: "与世界 [y] 轴平行的单位矢量。",
+          detialLink: "grasshoppervector/unitY.html"
+        },
+        {
+          name_en: "UnitZ",
+          name_zh: "单位矢量Z",
+          icon: require("../../assets/vector/UnitZ.png"),
+          discribetion_en: "Unit vector parallel to the world {z} axis.",
+          discribetion_zh: "与世界 [z] 轴平行的单位矢量。",
+          detialLink: "grasshoppervector/unitZ.html"
+        }
       ]
     };
   }
 };
 </script>
-
